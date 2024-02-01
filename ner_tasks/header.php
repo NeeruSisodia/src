@@ -9,6 +9,8 @@
     <link href="css/keya.css" rel="stylesheet">
     <link href="css/neeru.css" rel="stylesheet">
     <link href="css/mudathir.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -29,7 +31,7 @@
                             <a class="nav-link" href="ex2.php">Exercise 02</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Exercise 03</a>
+                            <a class="nav-link" href="ex3.php">Exercise 03</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Exercise 04</a>

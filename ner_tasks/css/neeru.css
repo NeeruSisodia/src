@@ -1,6 +1,6 @@
 /*Footer*/
 
-.table {
+.Contact-table {
     width: unset;
     --bs-table-color: none;
     --bs-table-bg: none;
@@ -18,7 +18,7 @@
 .fa-twitter:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
-    color: aliceblue;
+    color: rgb(255, 240, 240);
 }
 
 hr {

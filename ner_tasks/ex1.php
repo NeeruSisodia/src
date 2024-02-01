@@ -31,7 +31,7 @@
      $g2=4;
      $g3=5;
     ?>
-    <table>
+    <table class="table Grades">
         <tr><th>S.n.</th> <th>Name</th> <th>Grade</th></tr>
         <tr>
             <td>1</td>

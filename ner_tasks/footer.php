@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Fix My Cycle</title>
-    <!-- Add your CSS, JavaScript, etc. here -->
-</head>
+
 <footer>
         
 <div class="bg_dark px-5 py-5 text-white">
 
 <h3 class="fw-bolder mb-5"> CONTACT US</h3>
-<table class="table ">
+<table class="Contact-table">
     <tr>
         <td>
             Reach Us At
@@ -47,8 +42,18 @@
 
     <span class="text-white"><em>@2024 FixMyCycle. All Rights Reserved.</em></span>
 </center>
+<?php
+    $filename = basename($_SERVER['PHP_SELF']);
+    $lastModified = filemtime($_SERVER['SCRIPT_FILENAME']);
+    echo "<p> $filename was Last modified: " . date("F d Y H:i:s.", $lastModified) . "</p>";
+    ?>
 
+<!-- Browser Detection -->
+<div class="container mt-5">
+    <p><?php echo "Browser: " . $_SERVER['HTTP_USER_AGENT']; ?></p>
 </div>
+</div>
+
 </footer>
 </body>
 </html>
