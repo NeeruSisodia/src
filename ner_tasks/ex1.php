@@ -8,6 +8,8 @@
 
 <?php include 'header.php'; ?>
 <body>
+    <div class="container">
+
     <h3> 3.1 Write PHP code to output the following message: 
         Heello world! my name is "Neeru"
     </h3>
@@ -53,6 +55,9 @@
          include it as an image in the "ex1.php" fil:</h3> 
          <img src="images/exercise1.png" />
 
+         
+         </div>
          <?php include 'footer.php'; ?>
+
 </body>
 </html>

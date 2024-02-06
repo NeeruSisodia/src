@@ -3,6 +3,7 @@ $title= "Exercise 4: Control flow and loops";
 include 'header.php'; ?>
 
 
+<div class="container">
 
     <h4>Check eligiblity for voting </h4>
 
@@ -119,5 +120,5 @@ include 'header.php'; ?>
     </div>
 
 </div>
-
+</div>
 <?php include 'footer.php'; ?>
